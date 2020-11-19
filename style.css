@@ -82,6 +82,11 @@ img {
     padding:0;
   }
 
+  /* Elimina larghezza fissa della versione desktop */
+  .row{
+    width: 100%;
+  }
+
   /* BLOCCO LEZIONI - aumenta width a 100%*/
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -143,6 +148,11 @@ img {
   /* Scritta al volo */
   body:before{
     content:"Layout tablet bonus";
+  }
+
+  /* Elimina larghezza fissa della versione desktop */
+  .row{
+    width: 100%;
   }
 
   /* BLOCCO STEPS - aumenta width a 100%*/
