@@ -85,7 +85,19 @@ img {
   /* Elimina larghezza fissa della versione desktop */
   .row{
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
   }
+
+   #lezioni .row img {
+    /* per centrare orizzontalmente */
+    height: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 
   /* BLOCCO LEZIONI - aumenta width a 100%*/
   #lezioni .row>.left,
@@ -104,7 +116,7 @@ img {
 
   /* h1, h2, h3, testo personalizzati */
   .row h1{
-    font-size: 72px;
+    font-size: 26px;
     margin-top:200px;
     margin-bottom: 100px;
   }
@@ -115,10 +127,10 @@ img {
   }
 
   .row h2{
-    font-size: 60px;
+    font-size: 24px;
   }
   .row h3{
-    font-size: 50px;
+    font-size: 21px;
   }
 
   .row #text{
@@ -126,14 +138,14 @@ img {
   }
 
   .row * {
-    font-size: 40px;
+    font-size: 18px;
     margin-bottom: 50px;
   }
   /* h1, h2, h3, testo personalizzati */
 
   /* Inserisci padding laterali sui contenuti */
   .row h1, .row h2, .row h3, .row * {
-    padding: 0px 50px;
+    padding: 0px 15px;
   }
 
   /* Elimina hr di sezione */
